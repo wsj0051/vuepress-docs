@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'VuePress-docs',
 	locales: {
-		'/zh/': {
+		'/': {
 		  lang: '简体中文',
 		  title: 'VuePress文档',
 		  description: '中文描述'
