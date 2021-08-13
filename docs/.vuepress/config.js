@@ -12,6 +12,9 @@ module.exports = {
 		  description: 'English description'
 		}
 	},
+	head: [
+	    ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/wsj0051/files@main/img/favicon.ico' }]
+	],
 	themeConfig: {
 		repo: 'wsj0051/vuepress-docs',
 		docsRepo: 'wsj0051/vuepress-docs',
