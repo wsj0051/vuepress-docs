@@ -3,13 +3,13 @@ module.exports = {
 	locales: {
 		'/': {
 		  lang: 'zh-CN',
-		  title: 'VuePress文档',
-		  description: 'Vuepress 中文文档'
+		  title: '个人笔记',
+		  description: '个人学习记录'
 		},
 		 '/en/': {
 		  lang: 'en-US',
-		  title: 'Vuepress Docs',
-		  description: 'Vuepress English docs'
+		  title: 'Docs',
+		  description: 'English docs'
 		}
 	},
 	base:'/vuepress-docs/',
@@ -29,16 +29,15 @@ module.exports = {
 				label: '简体中文',
 				lastUpdated: '上次更新',
 				sidebar: {
-				  '/guide/': [
+				  '/notes/': [
 					'',
-					'getting_started',
-					'feature',
+					'adb',
+					'git'
 				  ]
 				},
 				nav: [
 				  { text: '主页', link: '/' },
-				  { text: '指南', link: '/guide/' },
-				  { text: 'github', link: 'https://github.com/wsj0051' },
+				  { text: '笔记', link: '/notes/' }
 				],
 				editLinkText: '在 GitHub 上编辑此页'
 		  },
@@ -47,16 +46,15 @@ module.exports = {
 				label: 'English',
 				lastUpdated: 'Last Updated',
 				sidebar: {
-				  '/en/guide/': [
+				  '/en/notes/': [
 					'',
-					'getting_started',
-					'feature',
+					'adb',
+					'git'
 				  ]
 				},
 				nav: [
 				  { text: 'Home', link: '/en/' },
-				  { text: 'Guide', link: '/en/guide/' },
-				  { text: 'github', link: 'https://github.com/wsj0051' },
+				  { text: 'notes', link: '/en/notes/' }
 				],
 				editLinkText: 'Edit this page on GitHub'
 	
