@@ -18,7 +18,7 @@ module.exports = {
 	],
 	themeConfig: {
 		repo: 'wsj0051/vuepress-docs',
-		docsRepo: 'vuepress-docs',
+		docsRepo: 'https://github.com/wsj0051/vuepress-docs',
 		docsDir: 'docs',
 		editLinks: true,
 		docsBranch: 'main',
