@@ -4,6 +4,9 @@
 cnpm install -g yarn
 yarn init
 yarn add -D vuepress
-export NODE_OPTIONS=--openssl-legacy-provider
 yarn docs:dev
+```
+## build报错解决办法
+```
+export NODE_OPTIONS=--openssl-legacy-provider
 ```

@@ -1,5 +1,6 @@
 module.exports = {
 	title: 'VuePress-docs',
+	description: null,
 	locales: {
 		'/': {
 		  lang: 'zh-CN',
@@ -59,7 +60,12 @@ module.exports = {
 				editLinkText: 'Edit this page on GitHub'
 	
 			}
-		}
+		},
+		search: false, // 关闭搜索
+        smoothScroll: true// 开启页面滚动
+	},
+	markdown: {
+		lineNumbers: true // 开启代码行号
 	}
 	  
 }
