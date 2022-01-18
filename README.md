@@ -1,5 +1,5 @@
 # vuepress-docs
-+ [访问链接](http://wsj0051.cn/vuepress-docs/)
+## 安装
 ```
 cnpm install -g yarn
 yarn init
